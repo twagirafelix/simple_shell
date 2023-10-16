@@ -43,7 +43,8 @@ typedef struct info
 	char *input_line;
 	char *command_name;
 	int exec_counter;
-}
+}data_of_program;
+
 /**
  * struct builtins - struct for the builtins
  * @builtin: the name of the builtin
